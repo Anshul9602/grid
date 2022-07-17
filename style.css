@@ -2,16 +2,19 @@
     margin: auto;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 main{
     width: 75%;
+    height: 100vh;
     margin: 1px solid grey;
     display: grid;
     grid-template-rows: 60px 100px 200px 60px;
+    border: 2px solid red;
 }
 
-.div1{ background-color: aliceblue;}
+/* .div1{ background-color: aliceblue;} */
 .div2{ background-color: yellow;}
 .div3{ background-color: red;}
 .div4{ background-color: blue;}
