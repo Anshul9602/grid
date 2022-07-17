@@ -6,18 +6,34 @@
 }
 
 main{
-    width: 75%;
+    width: 100vw;
     height: 100vh;
-    margin: 1px solid grey;
+    margin: 10px;
     display: grid;
     grid-template-rows: 60px 100px 200px 60px;
     border: 2px solid red;
+    /* intiialize the flex property */
+    display: flex;
+/* flex property */
+flex-direction: row;
+/* flex-direction: column;
+flex-direction: row;
+flex-direction: column-reverse; */
+flex-wrap: wrap;
 }
 
+
+
 /* .div1{ background-color: aliceblue;} */
-.div2{ background-color: yellow;}
-.div3{ background-color: red;}
-.div4{ background-color: blue;}
-.div5{ background-color: blanchedalmond;}
-.div6{ background-color: black;}
-.div7{ background-color: saddlebrown;}
+.div1{ background-color:cyan; width: 200px;height: 200px;}
+.div2{ background-color: yellow; width: 200px;height: 200px;}
+.div3{ background-color: red;width: 200px;
+    height: 200px;}
+.div4{ background-color: blue;width: 200px;
+    height: 200px;}
+.div5{ background-color: blanchedalmond;width: 200px;
+    height: 200px;}
+.div6{ background-color: black;width: 200px;
+    height: 200px;}
+.div7{ background-color: saddlebrown;width: 200px;
+    height: 200px;}
