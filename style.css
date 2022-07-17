@@ -19,10 +19,9 @@ flex-direction: row;
 /* flex-direction: column;
 flex-direction: row;
 flex-direction: column-reverse; */
-flex-wrap: wrap;
+justify-content: center;
+justify-content:space-between ;
 }
-
-
 
 /* .div1{ background-color: aliceblue;} */
 .div1{ background-color:cyan; width: 200px;height: 200px;}
